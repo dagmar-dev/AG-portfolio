@@ -381,16 +381,7 @@ ul {
 .hide{
     display:none;
 }
-.portfolio-type{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:1.5rem;
-    margin:1.5rem;
-    cursor:pointer;
-    font-size: 1.3rem;
-    font-weight: bold;
-}
+
 
 .photos{
     text-transform:capitalize;

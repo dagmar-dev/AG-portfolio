@@ -1,22 +1,3 @@
-// switch portfolio gallery
-document
-    .querySelector('.graphic-designs')
-    .addEventListener('click', hideOtherMeals)
-document.querySelector('.photos').addEventListener('click', hideGallery)
-let graphic = (document.querySelector('.graphic-designs').style.color =
-    '#7105ff')
-
-function hideOtherMeals() {
-    document.querySelector('graphic-gallery').style.display = 'block'
-    document.querySelector('.photo-gallery').style.display = 'none'
-}
-
-function hideGallery() {
-    document.querySelector('.photo-gallery').style.display = 'block'
-    document.querySelector('.graphic-gallery').style.display = 'none'
-    graphic = document.querySelector('.graphic-designs').style.color = '#ffff'
-    
-}
 
 $(function () {
     'use strict'
