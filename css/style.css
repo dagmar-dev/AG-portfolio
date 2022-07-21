@@ -14,6 +14,9 @@ footer
 comment
 ---------*/
 /*general*/
+:root{
+    --purple:#BA55D3;
+}
 body {
     font-family: 'Roboto', sans-serif;
     background: #212121;
@@ -124,7 +127,7 @@ ul {
     background: -moz-linear-gradient(-45deg, #ff8c05 0%, #d61a5e 100%);
     background: -webkit-linear-gradient(-45deg, #ff8c05 0%, #d61a5e 100%);
     background: linear-gradient(135deg, #ff8c05 0%, #d61a5e 100%); */
-    background:#7105ff;
+    background:var(--purple);
     color: #fff;
     border: 0;
     margin-top: 50px;
@@ -170,7 +173,7 @@ ul {
 }
 .navbar .navbar-brand h2 {
     font-weight: 900;
-    color:#7105ff;
+    color:var(--purple);
     /* background: -webkit-linear-gradient(right, #d61a5e, #ff8c05);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
@@ -185,7 +188,7 @@ ul {
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover{
-    color:#7105ff;
+    color:var(--purple);
 }
 .navbar.fix {
     position: fixed;
@@ -357,7 +360,7 @@ ul {
     background: #515151;
 }
 .resume .owl-theme .owl-dots .owl-dot.active span {
-    background: #7105ff;
+    background: var(--purple);
 }
 .resume .owl-theme .owl-nav.disabled + .owl-dots {
     margin-top: 50px;
@@ -397,7 +400,7 @@ ul {
 }
 
 .portfolio-type > span:hover{
-    color:#7105ff;
+    color:var(--purple);
     font-weight:700;
 }
 
@@ -431,14 +434,14 @@ ul {
     z-index: -1000;
 }
 .portfolio .portfolio-filter-menu ul li span:hover {
-    color: #7105ff;
+    color: var(--purple);
 }
 .portfolio .portfolio-filter-menu ul li span:hover::after {
     height: 10px;
     background: #525252;
 }
 .portfolio .portfolio-filter-menu ul li.active {
-    color: #7105ff;
+    color: var(--purple);
 }
 .portfolio .content-image {
     position: relative;
@@ -661,12 +664,12 @@ ul {
     color: #fff;
 }
 .contact .content-right .row .form-control:hover {
-    border-color: #7105ff;;
+    border-color: var(--purple);;
 }
 .contact .content-right .row .form-control:focus {
     outline: 0;
     box-shadow: none;
-    border-color: #7105ff;
+    border-color: var(--purple);
 }
 .contact .content-right .button {
     margin-top: 30px;
