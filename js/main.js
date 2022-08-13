@@ -76,3 +76,8 @@ $(function () {
         }
     })
 })
+
+
+
+//Photo gallery show/hide
+

@@ -537,6 +537,28 @@ ul {
     opacity: 0;
     transition: all .5s ease;
 }
+.photo-content{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.forsite ,.product, .fineart, .fashion, .headshot{
+    height:60vh;
+    padding:1rem;
+    width:100%;
+    max-height: 80vh;
+    align-self: center;
+    transition:300ms;
+}
+.photo-album-names{
+    margin:1rem;
+}
+.album-picker{
+    display:flex;
+    gap:1rem;
+}
 
 @keyframes titles {
     0% {
